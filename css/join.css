@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poiret+One&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.bg{
+    background-color: #B4C9FF;
+}
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+form{
+    padding: 20px;
+    margin: 10px 30px;
+    display: ;
+}
+
+form div{
+    display: flex;
+    margin: 20px;
+}
+
+form div .title {
+    margin: 0;
+}
+
+form label{
+    margin-top: 25px;
+}
+
+form input{
+    padding: 8px;
+    width: 200px;
+    outline: none;
+    font-weight: 600;
+    border-radius: 100px;
+    border: none;
+    background: #ffffff6c;
+}
+
+form select{
+    padding: 8px;
+    width: 220px;
+    border-radius: 100px;
+    background: #ffffff6c;
+    outline: none;
+    border: none;
+}
+
+form .p-2 .title{
+    width: 110px;
+}
